@@ -1,0 +1,7 @@
+psutil
+scikit-learn
+river
+pyyaml
+numpy
+scipy
+hdbscan

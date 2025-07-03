@@ -1,0 +1,9 @@
+window_size: 5
+entropy_threshold: 5.0
+clustering:
+  method: "DBSCAN"
+  eps: 0.5
+  min_samples: 10
+logging:
+  level: "INFO"
+  file: "logs/runtime.log"

@@ -1,0 +1,17 @@
+[
+  {
+    "action": "write_random",
+    "target": "tmp/testfile.bin",
+    "size_kb": 1024,
+    "delay": 2
+  },
+  {
+    "action": "fork_zombies",
+    "count": 3,
+    "delay": 1
+  },
+  {
+    "action": "sleep",
+    "seconds": 5
+  }
+]
